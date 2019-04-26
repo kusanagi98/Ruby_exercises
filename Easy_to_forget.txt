@@ -1,0 +1,32 @@
+Empty hash "{}" empty array "[]"
+"#{}" to include variable in a string
+||= only assign if variable isnt already assigned
+RubyÅfs methods will return the result of the last evaluated expression without "return"
+Default parameter (res = true)
+Ruby does && and || via short-circuit evaluation. That means that Ruby doesnÅft look at both expressions unless it has to
+upto downto loop
+respond_to?(symbol) used to know if a method work with that object with symbol used as reference to a method
+<< work similar to + and .push method ~ string_cat in C nh?ng khac v?i java thi n?u la non-string thi ph?i to_s
+"collect" method apply a block of code to every element of the array and return it, "map" is a similar method... "each" is just a loop to every array element 
+"yield" keyword allows a method to accept a block as parameter, it can also accept a parameter through a placeholder |n| 
+"Proc" method turn a block of code into a procedure (an object)
+"&" is used to turn a proc back to block of code to use as a parameter, also use to convert symbol(method) to proc
+"lambda" is similar to proc (also an object) 
+"lambda" vs "proc": 
+1.First, a lambda checks the number of arguments passed to it, while a proc does not. 
+2.Second, when a lambda returns, it passes control back to the calling method; when a proc returns, it does so immediately, without going back to the calling method.
+"<" inheritance like "extends" in java
+"@" instance variable
+"@@" class variable
+"$" global variable inside class
+"job=(new_job)" this method sets a value
+public and private
+use "attr_reader" to access a variable and "attr_writer" to change it, pass instance variables as symbols, we can access or change directly.
+use "attr_accessor" for both.
+"module"  used as a toolbox that contains a set methods and constants. (library)
+Constants are written in full caps.
+scope resolution operator "::" to take sth from a specific module (eg Math::PI)
+"require 'module'" to use what's inside the module
+"include Module" similar to require but no need for "::" allows a class to use a method from a module at the instance level (Instance.modulemethod)(Interface in Java?)
+"extend Module" allow a class to use a method from a module at the class level (Class.modulemethod)
+"1_000_000" Ruby allows underscore in numbers
