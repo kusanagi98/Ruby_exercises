@@ -1,9 +1,9 @@
 Empty hash "{}" empty array "[]"
 "#{}" to include variable in a string
 ||= only assign if variable isnt already assigned
-Rubyfs methods will return the result of the last evaluated expression without "return"
+RubyÂfs methods will return the result of the last evaluated expression without "return"
 Default parameter (res = true)
-Ruby does && and || via short-circuit evaluation. That means that Ruby doesnft look at both expressions unless it has to
+Ruby does && and || via short-circuit evaluation. That means that Ruby doesnÂft look at both expressions unless it has to
 upto downto loop
 respond_to?(symbol) used to know if a method work with that object with symbol used as reference to a method
 << work similar to + and .push method ~ string_cat in C nh?ng khac v?i java thi n?u la non-string thi ph?i to_s
@@ -30,3 +30,5 @@ scope resolution operator "::" to take sth from a specific module (eg Math::PI)
 "include Module" similar to require but no need for "::" allows a class to use a method from a module at the instance level (Instance.modulemethod)(Interface in Java?)
 "extend Module" allow a class to use a method from a module at the class level (Class.modulemethod)
 "1_000_000" Ruby allows underscore in numbers
+"inspect" returns a string containing a human-readable representation of obj
+"%w[array]" "word array" - the elements are delimited by spaces and it returns an array of strings. "%s" for symbol,...
