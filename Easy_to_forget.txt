@@ -32,3 +32,9 @@ scope resolution operator "::" to take sth from a specific module (eg Math::PI)
 "1_000_000" Ruby allows underscore in numbers
 "inspect" returns a string containing a human-readable representation of obj
 "%w[array]" "word array" - the elements are delimited by spaces and it returns an array of strings. "%s" for symbol,...
+use "debugger" to debug whenever there are hard to understand problems.(byebug gem)
+<% %> Executes the ruby code within the brackets.
+<%= %> Prints something into erb file.
+<% -%> Avoids line break after expression.
+<%# %> Comments out code within brackets;
+Rails provides the "flash" as a standard way to display temporary messages
