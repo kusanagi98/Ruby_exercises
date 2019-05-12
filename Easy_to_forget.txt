@@ -6,7 +6,7 @@ Default parameter (res = true)
 Ruby does && and || via short-circuit evaluation. That means that Ruby doesnft look at both expressions unless it has to
 upto downto loop
 respond_to?(symbol) used to know if a method work with that object with symbol used as reference to a method
-<< work similar to + and .push method ~ string_cat in C nh?ng khac v?i java thi n?u la non-string thi ph?i to_s
+<< work similar to + and .push method ~ string_cat in C nh?ng khac v?i java thi n?u la non-string thi ph?i to_s, va cung work voi array(push)
 "collect" method apply a block of code to every element of the array and return it, "map" is a similar method... "each" is just a loop to every array element 
 "yield" keyword allows a method to accept a block as parameter, it can also accept a parameter through a placeholder |n| 
 "Proc" method turn a block of code into a procedure (an object)
