@@ -38,3 +38,4 @@ use "debugger" to debug whenever there are hard to understand problems.(byebug g
 <% -%> Avoids line break after expression.
 <%# %> Comments out code within brackets;
 Rails provides the "flash" as a standard way to display temporary messages
+Method object is a pair of receiver and the method, it's callable like a Proc.
